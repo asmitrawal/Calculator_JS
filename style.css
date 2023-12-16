@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Merriweather&family=Press+Start+2P&family=Silkscreen&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+body {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(#ECE9E6,#FFFFFF); */
+    /* background: linear-gradient(135deg, #ffcc00, #ff3300); */
+    /* background: linear-gradient(135deg, #333, #111); */
+    /* background: linear-gradient(135deg, #888, #444); Adjust color codes as needed */
+    /* background: linear-gradient(135deg, #c9a67d, #5b4934); Adjust color codes as needed */
+    background: linear-gradient(45deg, #789b73, #2e4739);
+    /* background: linear-gradient(135deg, #8497a3, #38474f); Adjust color codes as needed */
+    /* background: linear-gradient(135deg, #6b7b8c, #2a333e); Adjust color codes as needed */
+    font-family: merriweather;
+    color: #000;
+}
+
+.container {
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    /* border:1px solid; */
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    background:#b7c1a3;
+    border-radius:4px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+    /* background: #aebda7; */
+    /* margin:10px; */
+}
+
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row {
+    display: flex;
+    gap: 10px
+}
+
+.button {
+    font-size: 20px;
+    border: 1px solid;
+    border-radius:12.5px;
+    padding:8px;
+    height:25px;
+    width:25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:#ECE9E6;
+    /* font-family: silkscreen; */
+    font-weight:600;
+}
+
+/* .operator {
+    background: #789b73;
+} */
+
+/* .number {
+    background: #5e72e4; 
+} */
+/* .equals {
+    background: #2e4739;
+} */
+/* 
+.ac {
+    background: #e74c3c; 
+} */
+
+.zero {
+ width: 76px;
+
+ display:flex;
+ justify-content: flex-start;
+}
+
+/* button section completed, moving to screen */
+
+.screen {
+    border: 1px solid;
+    height:50px;
+    width:100%;
+    background: #ECE9E6;
+    font-weight:700;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+hr {
+    width:100%;
+}
+
+header {
+    /* text-decoration: underline; */
+    letter-spacing: 3px;;
+    font-size:18px;
+    color:white;
+    font-weight: 800;
+    /* font-family: silkscreen; */
+    /* align-self: center; */
+}
+
+#secondary {
+    /* font-family:silkscreen; */
+    align-self:flex-end;
+    padding-right: 5px;
+}
+#main {
+    padding-left: 5px;
+}
